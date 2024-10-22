@@ -1,0 +1,11 @@
+- I made all the methods in Palette public so that it could be accessed by AdvancedSoloRedGameModel
+which is in a different package.
+- I abstracted redundant code from SoloRedGameModel and AdvancedSoloRedGameModel into a new class
+called AbstractSoloRedGameModel. So my new model classes are much shorter and just use super to call
+the duplicate methods.
+- I created a CardNumbers enum to store the card numbers and their values. This way the card numbers
+are immutable to the user. I updated CardPiece to account for this change as well. I updated the
+Abstract model class to use this enum and I also updated my tests to use this enum (instead of
+hardcoding the values).
+- I changed all variables named as a single character to meaningful words after Prof told us to do
+so during lecture.

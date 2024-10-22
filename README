@@ -1,0 +1,11 @@
+Changes I made to the previous assignment:
+
+- The controller package consists of new classes that have been implemented for ASSIGNMENT 3.
+
+- I removed my shuffle() helper method in SoloRedGameModel class so that I shuffled directly in
+the startGame() method. I did this because I was running into bugs shuffle.
+
+- I deleted my canvas class and instead created a variable that stored canvas as type Card in
+SoloRedGameModel.
+
+- I created a render(String deckDisplay) method in my SoloRedGameTextView that behaves similarly to render(), but allows a user to render the given input when that method is called. I call this method after every time I call view.render() in my controller class.
