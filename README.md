@@ -43,3 +43,36 @@ In SoloRed7:
 1. Clone the repository:
    ```bash
    git clone https://github.com/giaptl/SoloRed7.git
+2. Navigate into the project directory:
+   ```bash
+   cd SoloRed7
+3. Compile the project:
+   ```bash
+   javac -d bin src/*.java
+4. Run the game:
+   ```bash
+   java -cp bin Main
+
+## Architecture
+The code is structured to highlight key object-oriented principles:
+- **Model-View-Controller (MVC) Pattern:** Separate classes manage the game's model, user interface, and user input.
+- **Encapsulation and Modularity:** Classes are organized by functionality, enhancing code readability and reusability.
+- **Exception Handling:** Provides informative feedback on invalid inputs.
+
+## Project Highlights
+- **Game Model:** Implements a flexible, easy-to-understand model.
+- **View Layer:** Simple interface for displaying the game state to the player.
+- **Testing Framework:** Includes automated tests covering edge cases for gameplay, ensuring a stable and reliable game experience.
+
+## Future Improvements
+- **Enhanced User Interface:** Develop a GUI version for improved player interaction.
+- **AI Opponents:** Expand the game with AI players to simulate a multiplayer experience.
+- **Additional Game Variants:** Add new rule variations for different game experiences.
+
+## Contact
+Feel free to reach out if you have questions about this project or would like to discuss my development experience!
+
+- **Name:** Gia Patel
+- **Email:** giapatel217@gmail.com
+- **LinkedIn:** [Profile](https://www.linkedin.com/in/gia-patel-5b4247282/)
+
